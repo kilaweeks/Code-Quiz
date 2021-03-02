@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = ./assets/code-quiz.css></link>
+    <title>Code Quiz</title>
+</head>
+<body>
+    <h1 id="title">Code Quiz</h1>
+    <p id = "text">Answer the questions before the times runs out! Lose 10 seconds for each wrong answer.</p><hr>
+ 
+    <div id="timer-count">60</div>    
+
+    <div id = "btn-div">
+        <button id="start-button">Start Quiz</button>
+    </div>
+
+    <div id = "score-box">
+        <p id = "score"></p><br>
+        <p>Enter Your Initials</p>
+        <input type = "text" id = "user-input" minlength="2"maxlength="3">
+        <button id="submit-button">Submit</button>  
+    </div>
+    
+     <div id="quiz">
+        <div class="choices" id = "question">Question</div>
+            <p class="choice" id="A" onclick="checkAnswer('A')">A</p>
+            <p class="choice" id="B" onclick="checkAnswer('B')">B</p>
+            <p class="choice" id="C" onclick="checkAnswer('C')">C</p>
+     </div>
+     <p id="right-or-wrong"></p>
+     <div id="highscore-list">
+         <h2>Highscores</h2>
+         <button id="clear-scores">Clear Scores</button>
+            <ol id="highscores"></ol>
+    </div>
+
+
+
+    <script src = ./assets/code-quiz.js></script>
+</body>
+</html>
