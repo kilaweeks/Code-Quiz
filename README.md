@@ -9,10 +9,10 @@ The quiz ends when all questions have been answered or when the timer runs out. 
 
 ## Images
 
-![ScreenShot](./assets/img/codequiz1.png)
-![ScreenShot](./assets/img/codequiz2.png)
-![ScreenShot](./assets/img/codequiz3.png)
-![ScreenShot](./assets/img/codequiz4.png)
+![ScreenShot](./assets/img/screenshot1.png)
+![ScreenShot](./assets/img/screenshot2.png)
+![ScreenShot](./assets/img/screenshot3.png)
+![ScreenShot](./assets/img/screenshot4.png)
 
 
 ## Application
